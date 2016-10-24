@@ -87,6 +87,23 @@ ul, li {
   
   transition: 1s;
 }
+
+.sliderO{
+  -webkit-transition: 0s;
+  -webkit-transform: translateX(0%);
+}
+.sliderA{
+  -webkit-transform: translateX(-20%);
+}
+.sliderB{
+  -webkit-transform: translateX(-40%);
+}
+.sliderC{
+  -webkit-transform: translateX(-60%);
+}
+.sliderD{
+  -webkit-transform: translateX(-80%);
+}
 #content #slider .mainImages {
   position: relative;
   z-index: 1;
