@@ -518,7 +518,7 @@
                             <input type="text" class="form-control">
                         </div>
                         <div class="form-group col-lg-4">
-                            <label>地址</label>
+                            <label>邮箱</label>
                             <input type="email" class="form-control">
                         </div>
                         <div class="form-group col-lg-4">
@@ -601,11 +601,12 @@
 </body>
 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/index1.js"></script>
-<script type="text/javascript" src="js/hear.js"></script>
+<script src="js/index2.js"></script>
+<script type="text/javascript" src="js/all.js"></script>
 <script>
 $(document).ready(function(){
-// 添加链接两个光滑scrolling全在NavBar +页脚链接
+// 获取导航的a标签，并添加点击事件
+
   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
 
   // 防止默认的锚点击行为
@@ -628,6 +629,7 @@ $(document).ready(function(){
 </script>
 <script>
 $(window).scroll(function() {
+    console.log($(".slideanim"));
   $(".slideanim").each(function(){
     var pos = $(this).offset().top;
 

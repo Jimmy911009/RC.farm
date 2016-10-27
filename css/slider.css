@@ -231,6 +231,7 @@ ul, li {
   color: #9d9d9d;
   font-size: 17px;
   position: relative;
+  cursor: pointer;
 }
 #slider_cent li span{
   display: block;
